@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09346F1028F83C9400B993C9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346F0F28F83C9400B993C9 /* DataManager.swift */; };
+		09346F1228F83F9000B993C9 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346F1128F83F9000B993C9 /* StorageManager.swift */; };
+		09346F1428F8474200B993C9 /* Extension + UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346F1328F8474200B993C9 /* Extension + UIAlertController.swift */; };
+		09346F1628F8476300B993C9 /* Extension + UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09346F1528F8476300B993C9 /* Extension + UITableViewCell.swift */; };
 		09C2412D28F8262800D73230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2412C28F8262800D73230 /* AppDelegate.swift */; };
 		09C2412F28F8262800D73230 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2412E28F8262800D73230 /* SceneDelegate.swift */; };
 		09C2413628F8263000D73230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C2413528F8263000D73230 /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09346F0F28F83C9400B993C9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		09346F1128F83F9000B993C9 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		09346F1328F8474200B993C9 /* Extension + UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIAlertController.swift"; sourceTree = "<group>"; };
+		09346F1528F8476300B993C9 /* Extension + UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UITableViewCell.swift"; sourceTree = "<group>"; };
 		09C2412928F8262800D73230 /* RealmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C2412C28F8262800D73230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09C2412E28F8262800D73230 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +95,8 @@
 		09C2414A28F82CEA00D73230 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				09346F1328F8474200B993C9 /* Extension + UIAlertController.swift */,
+				09346F1528F8476300B993C9 /* Extension + UITableViewCell.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -102,6 +112,8 @@
 		09C2414C28F82D0A00D73230 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				09346F0F28F83C9400B993C9 /* DataManager.swift */,
+				09346F1128F83F9000B993C9 /* StorageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -211,9 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09346F1428F8474200B993C9 /* Extension + UIAlertController.swift in Sources */,
 				09C2412D28F8262800D73230 /* AppDelegate.swift in Sources */,
+				09346F1028F83C9400B993C9 /* DataManager.swift in Sources */,
 				09C2415328F834CC00D73230 /* TaskList.swift in Sources */,
+				09346F1228F83F9000B993C9 /* StorageManager.swift in Sources */,
 				09C2414828F8284800D73230 /* TaskViewController.swift in Sources */,
+				09346F1628F8476300B993C9 /* Extension + UITableViewCell.swift in Sources */,
 				09C2412F28F8262800D73230 /* SceneDelegate.swift in Sources */,
 				09C2414628F8283500D73230 /* TaskListViewController.swift in Sources */,
 			);
